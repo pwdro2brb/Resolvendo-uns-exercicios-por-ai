@@ -50,12 +50,14 @@ button{
 <h1>Resolvendo alguns exercícios que achei por ai</h1>
 <div></div>
 <script>
-let x = 14
+let x = 7
 function primo(){
-for(let i = 0; i < x; i++){
+for(let i = 0; i <= x; i++){
 let y = x % i;
+let t =+ x
 if (y !== 0){
-console.log(x)
+for(let i = 1; i <= x; i++){
+}console.log()
 }else{
 console.log(i)
 }
@@ -66,9 +68,10 @@ console.log(primo())
 
 <h2>Atividade 10</h2>
 <h4>Olhe o console</h4>
-<pre>Não concluido com hésito</pre>
+<pre>Concluido com hésito</pre>
 <div>
 </div>
 
 </body>
 </html>
+
